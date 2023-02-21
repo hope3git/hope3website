@@ -1,0 +1,208 @@
+    body{
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-fluid{
+      position:relative;
+      width:100%; 
+    }
+
+    .banner-1-button{
+    
+     color: #fff !important;
+     padding: .8em 2em;
+     font-weight: bolder;        
+     font-size: 1em;
+     line-height: 0.5;
+     border-radius: 1em;
+    }
+
+    .banner-1-btndonate{
+      background-color: #e22126;
+    }
+    .banner-1-btnjoinus{
+      background-color: #ffc602;
+    }
+
+    .banner-1-content{
+      text-align: center;
+      font-size:large;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:lighter;
+      opacity: 0.6;
+       
+    }
+
+    .ban-1{
+      width: 100%;
+    }
+
+    .ban-1-container{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .ban-1-hr{
+       border:none;  
+       width: 90%;
+       border-bottom: 1px solid rgb(132 138 138);
+       box-shadow: 1px 2px 2px 1px #ded6d6;
+       margin-top: 10vh;
+       margin-bottom: 20vh;
+      display:none;
+    }
+
+    @media (max-width:767px){
+
+      .banner-1-content{
+        font-weight:normal ;
+        font-size:x-large;
+        color:black;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        
+         }
+
+         .ban-1-hr{
+          display: block;
+        }
+      }
+
+    @media only screen and (min-width: 768px) and (max-width: 1100px){
+            
+        .banner-1-btn-group{
+          position: absolute;
+          transform: translate(4em,-3em);
+          -moz-transform: translate(4em,-3em);
+          -webkit-transform: translate(4em,-3em);
+          -o-transform: translate(4em,-3em);
+          -ms-transform: translate(4em,-3em);
+        }
+
+        .mobile-banner1{
+          position: relative;
+        }
+
+        .banner-1-content{
+        font-size: 1.4em;
+        }
+
+    }
+    @media only screen and (min-width: 1100px) and (max-width: 1690px){
+       
+           .banner-1-btn-group{
+             position: absolute;
+             transform: translate(6.8em,-4.5em);
+             -moz-transform: translate(6.8em,-4.5em);
+             -webkit-transform: translate(6.8em,-4.5em);
+             -o-transform: translate(6.8em,-4.5em);
+             -ms-transform: translate(6.8em,-4.5em);
+           }
+
+           .mobile-banner1{
+             position: relative;
+           }
+
+          .banner-1-content{
+            font-size: 1.4em;
+          }
+      }
+
+
+      @media only screen and (min-width: 1690px) and (max-width: 2010px){
+       
+          .banner-1-btn-group{
+            position: absolute;
+            transform: translate(10em,-7em);
+            -moz-transform: translate(10em,-7em);
+            -webkit-transform: translate(10em,-7em);
+            -o-transform: translate(10em,-7em);
+            -ms-transform: translate(10em,-7em);
+          }
+
+          .mobile-banner1{
+            position: relative;
+          }
+
+         .banner-1-content{
+           font-size: 1.9em;
+         }
+
+      }
+
+      @media (min-width: 2010px){
+       
+          .banner-1-btn-group{
+            position: absolute;
+            transform: translate(14em,-10m);
+            -moz-transform: translate(14em,-10em);
+            -webkit-transform: translate(14em,-10em);
+            -o-transform: translate(14em,-10em);
+            -ms-transform: translate(14em,-10em);
+          }
+
+          .mobile-banner1{
+            position: relative;
+          }
+
+         .banner-1-content{
+           font-size: 2.6em;
+         }
+
+      }
+
+
+
+      @media (max-width: 350px){
+       
+        .banner-1-btn-group{
+          position: absolute;
+          transform: translate(14em,-10m);
+          -moz-transform: translate(14em,-10em);
+          -webkit-transform: translate(1.2em,-2.7em);
+          -o-transform: translate(14em,-10em);
+          -ms-transform: translate(14em,-10em);
+        }
+
+        .banner-1-button{
+          padding: .7em 1.5em;
+          font-size: 0.9em;        
+
+         }
+
+
+    }
+
+
+
+      @media only screen and (min-width:350px) and (max-width:480px){
+
+        .banner-1-btn-group{
+          position: absolute;
+          transform: translate(2.3em,-5em);
+          -moz-transform: translate(2.3em,-5em);
+          -webkit-transform: translate(2.3em,-3em);
+          -o-transform: translate(2.3em,-5em);
+          -ms-transform: translate(2.3em,-5em);
+        }
+      }
+    
+
+      @media only screen and (min-width:480px) and (max-width:767px){
+
+        .banner-1-btn-group{
+          position: absolute;
+          transform: translate(2.3em,-5em);
+          -moz-transform: translate(2.3em,-5em);
+          -webkit-transform: translate(2.3em,-4em);
+          -o-transform: translate(2.3em,-5em);
+          -ms-transform: translate(2.3em,-5em);
+        }
+      }
+
+
+
+      
+
+
+  

@@ -1,0 +1,42 @@
+*{
+        
+    font-family: 'Montserrat', sans-serif;
+    }
+    .quote{
+        line-height: 2 !important;
+        font-size: 2rem !important;
+        color: #59595c;
+    }
+    .quote>div{
+        font-size:0.5em !important;
+    }
+
+    .desktop-section{
+        height:20em;
+     }
+     .mobile-section{
+         height:15em;
+      }
+    .ipad-section{
+        height:20em;
+     }
+
+     .ourpeople-heading{
+        color: #6d6e72;
+        font-weight: bolder;
+        font-size: 2.5rem;
+      }
+/* 
+      .desktop-section-height{
+        height:25em;
+   } */
+   .ipad-section-height{
+        height:25em;
+   }
+   .mobile-section-height{
+        height:26em;
+   }
+
+   .proff-name{
+    font-size: .9rem;
+  }

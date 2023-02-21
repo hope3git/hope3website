@@ -1,0 +1,108 @@
+
+.banner3-no{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:5em;
+    font-size: 3.5em;
+    color: #58595b;
+    
+    
+  }
+  
+  .banner3-words{
+    font-family:'Montserrat', sans-serif;
+    font-weight:0.1em;
+    font-size: 1.3em;
+    color: #746a52;
+    text-transform:uppercase;
+    line-height:0.2em;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .banner-3-content{
+    padding-top: 5%;
+}
+
+.banner-3-years{
+    padding-left: 5%;
+}
+
+
+.yellow{
+    color:#daae1d;
+    font-weight:bold;
+    
+  }
+
+.yellow:hover{
+  color:#daae1d;
+  font-weight:lighter;
+  text-decoration: none;
+}
+
+  .content-align{
+    color:#848484;
+    font-size: medium;
+    font-family:'Montserrat', sans-serif;
+  }
+
+  .Homepage-banner3-btn-1{
+    color: #fff;
+    padding: .7em 1.71em;
+    font-weight: bolder;        
+    font-size: 1.0em;
+    line-height: 0.5;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+@media(max-width: 768px){
+
+  .banner-3-years-mobile{
+    padding-left: 10%;
+  }
+  .content-align{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .banner3-words{
+      font-size: 1rem;
+    }
+    .banner3-no{
+      font-size: 2.8rem;
+    }
+}
+@media only screen and (min-width:300px) and (max-width: 470px){
+  
+    .banner3-words{
+      font-size: .9rem;
+    }
+    .banner3-no{
+      font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 300px){
+  .banner3-words{
+      font-size: .7rem;
+    }
+    .banner3-no{
+      font-size: 2rem;
+    }   
+}
+
+@media(min-width:576px){
+
+    .content-align{
+     margin-top: 3em;
+    }
+  
+    .br::before{
+      content:"";
+      display:block;
+      
+    }
+}

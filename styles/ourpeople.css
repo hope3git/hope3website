@@ -1,0 +1,115 @@
+
+.desktop-section-height{
+     height:25em;
+}
+.ipad-section-height{
+     height:25em;
+}
+.mobile-section-height{
+     height:25em;
+}
+.bluebar{
+    background-color:#d7f3ee;
+    color: #6e6d72;
+    font-weight:bolder;           
+}
+
+.ourpeople-wrapper{
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+}
+
+.tit{
+    font-weight: 900;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    padding-left: 5%;
+    letter-spacing: .1rem;
+    padding-top: 0.5rem;
+}
+
+.ourpeople-top-text{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: #6d6e72 ; 
+    margin-left: 3%; 
+    margin-top: 3%;
+    margin-right: 3%;
+}
+.ourpeople-heading{
+  color: #6d6e72;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.ourpeople-gray-bg{
+  background-color:#efefef;
+}
+.ourpeople-sub-content{
+  font-size: 1.2rem;
+   color: #7f7f81;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.ourpeople-btn-desktop{
+        color: #fff;
+        padding: .8rem 2rem;
+        font-weight: bolder;        
+        font-size: 1rem;
+        line-height: 0.5;
+        border-radius: 1.5em;
+        background-color:#ffc300;
+        position: initial;
+        font-family: 'Montserrat', sans-serif;
+    }
+  .ourpeople-donate-btn{
+    background-color: #fb0000;
+  }
+
+  .ourpeople-link-color{
+    color: black;
+  }
+
+@media(max-width: 576px){
+    .ourpeople-heading{
+      font-size: 1.8rem;
+    }
+    .ourpeople-thumbnail-text{
+      font-size: .7rem;
+    }
+    .ourpeople-sub-content{
+      font-size: .9rem;
+      color: #7f7f81;
+      
+    }
+    .ourpeople-top-text{
+      color:#7f7f81;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .ourpeople-mobile-btn{
+      padding: .6rem 1.3rem;
+      font-size: .8rem;
+      line-height: .5;      
+    }
+
+    h6{
+      font-size: .8rem;
+    }
+
+    .ourpeople-link-color{
+      font-size: .8rem;
+    }
+}
+
+
+.quote{
+  line-height: 2 !important;
+  font-size: 1.5rem !important;
+  color: #59595c;
+}
+
+.proff-name{
+  font-size: .9rem;
+}

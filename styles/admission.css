@@ -1,0 +1,392 @@
+
+.horizondal-line{
+  border:none;  
+  width: 100%;
+  border-bottom: 1px solid rgb(132 138 138);
+  box-shadow: 1px 2px 2px 1px #ded6d6;
+  margin-top: 2.3vh;
+  margin-bottom: vh;
+  display: block; 
+}
+
+.head1{
+  font-size:3em;
+  font-weight:lighter;
+  color: #6d6d6f;
+  margin-top: 0.9em;
+}
+
+.head2{
+  font-size: 1.5em;
+  color: #746c74;
+  margin-top:-0.5em
+}
+
+.head3{
+  font-size:1.2em;
+  color: #746c74;
+  font-weight: lighter;
+}
+
+.process{
+  color:#58595b;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;}
+.no-gutters>[class^="col-"]{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.dropdown-arrow-mobile{
+  border:none;
+  outline:none;
+  color: white;
+  background-color:#ffc602;
+  float:right;
+}
+
+@media(max-width:991px){
+  .process-images{
+    margin-top: 2.4em;
+    height: 20%;
+  }
+  .process1-content{
+    margin-top: 0.7em;
+  }
+  
+  .process2-content{
+    margin-top: 0.7em;
+  }
+  
+  .process3-content{
+    margin-top:0.7em ;
+  }
+  
+  .process4-content{
+    margin-top:0.7em;
+  }
+  
+  .process5-content{
+    margin-top:0.7em;
+  }
+
+  .finish{
+    line-height:0.8;
+  }
+
+  .finish1-content{
+    font-size: 2.4em;
+    color: #f39607;
+    margin-top: 1.4em;
+  }
+
+  .finish2-content{
+    color: #f39607;
+    font-size: 1.5em;
+    line-height: 1.5; 
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1012px){
+  .vertical-line{
+    border-left: 0.4em solid #b4b4b4;
+    position:absolute;
+    left:49%;
+    height:36%;
+    top:96%;
+  }
+  .vertical-line5{
+    height: 57%;
+  }
+
+  .process1{
+    margin-top: 2.4em;
+  }
+
+  .process1-img{
+    margin-top: 3.4em;
+  }
+
+  .process-images{
+    margin-top: 3.3em;
+  }
+
+  .process-contents{
+    margin-top: 3.7em;
+  }
+
+  .finish1{
+    font-size: 2.6em;
+    color: #f39607;
+    position: absolute;
+    top: 59%;
+    right: 60%;
+  }
+
+  .finish2{
+    position: absolute;
+    font-size: 1.5em;
+    color: #f39607;
+    top: 59%;
+    left: 60%;
+  }
+
+}
+
+@media only screen and (min-width:1013px) and (max-width:1199px){
+  .vertical-line{
+    border-left: 0.4em solid #b4b4b4;
+    position:absolute;
+    left:49%;
+    height:36%;
+    top:96%;
+  }
+
+  .vertical-line5{
+    height: 57%;
+  }
+
+  .process1{
+    margin-top: 2.4em;
+  }
+
+  .process1-img{
+    margin-top: 2.5em;
+  }
+
+  .process-images{
+    margin-top: 3.3em;
+  }
+
+  .process-contents{
+    margin-top: 4.0em;
+  }
+
+  .finish1{
+    font-size: 2.6em;
+    color: #f39607;
+    position: absolute;
+    top: 59%;
+    right: 59%;
+  }
+
+  .finish2{
+    position: absolute;
+    font-size: 1.5em;
+    color: #f39607;
+    top: 59%;
+    left: 60%;
+  }
+  
+}
+
+@media(min-width:1200px){
+  .vertical-line{
+    border-left: 0.4em solid #b4b4b4;
+    position:absolute;
+    left:49%;
+    height:30%;
+    top:96%;
+  }
+
+  .vertical-line5{
+    height: 65%;
+  }
+
+  .process1{
+    margin-top: 2.4em;
+  }
+
+  .process1-img{
+    margin-top: 2.5em;
+  }
+
+  .process-images{
+    margin-top: 3.3em;
+  }
+
+  .process-contents{
+    margin-top: 5.5em;
+  }
+
+  .finish-img{
+    margin-top: 2.4em;
+  }
+  
+  .finish1{
+    font-size: 2.6em;
+    color: #f39607;
+    position: absolute;
+    top: 59%;
+    right: 59%;
+  }
+
+  .finish2{
+    position: absolute;
+    font-size: 1.5em;
+    color: #f39607;
+    top: 60%;
+    left: 60%;
+  }
+
+  .br::before{
+    content: "";
+    display: block;
+  }
+  .admissionform{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+  
+}  
+    
+  /* SECOND PART */
+@media (min-width:768px) {  
+  .admissionformbtn{
+    padding-left: 6vw;
+    padding-right:6vw;
+    padding-top:.1em;
+    padding-bottom:.1em;
+    color:white;
+    font-weight:bold;
+    font-size:1.5rem;
+    background-color: #ffc602;
+    border:none;
+  } 
+
+  .insidecontent{
+    font-size:1rem;
+    font-weight:bold;
+    color:rgb(77, 73, 73);
+  }   
+
+  .admissionform{
+    border: 1px solid #ffc602; 
+    margin-left:5%;
+    margin-right: 5%;
+    padding-top:2rem;
+    background-color: white; 
+    padding-bottom:0.5em; 
+  }
+
+  .admissionbanner{
+    margin-top: 5.5em;
+    background-color: #ffc602;
+    bottom: 0%;
+    padding-bottom: 8em;
+  }
+
+  .formtopic{
+    color:white;
+    text-align: center;
+    font-size: 35;
+    font-weight:bold;
+  }
+
+  .startingcontent{
+    font-size: 50;
+    color:rgb(61, 58, 58);
+    text-align:center;
+  }
+
+  .processheading{
+    font-size: 20;
+    color: rgb(49, 48, 48);
+    padding-top: 1em;
+  }
+
+} 
+
+@media(max-width:767px){ 
+
+
+
+  .admissionbannermobile{
+    margin-top: 5.5em;
+    background-color:#eefafa;
+    bottom: 0%;
+    padding-bottom: 8em;
+  }
+
+  .insidecontentmobile{
+    font-size:1rem;
+    font-weight:bold;
+    color:rgb(77, 73, 73);
+  }   
+
+  .togglebutton1{
+    border: none; 
+    background-color:#ffc602; 
+    color:white; 
+    padding: 0.5em;
+    font-size:1.1em;
+    font-weight: bolder;
+    width:100% !important;
+    margin-bottom: 0.1075em;
+    height:3.5em;
+    outline:none;
+  }  
+
+  .admissionformbtnmobile{
+    background-color:#ffc602;
+    width:auto;
+  }
+
+  .admissionformmobile{
+    background-color: #fff4cc;
+    padding-top: 3.1em;
+    padding-bottom: 3.5em;
+    margin-left:auto;
+    border:1px solid #ffc602;
+  }  
+
+  .inputborder{
+    border:black solid 0.03125em;
+  }
+
+  .mobile-button{
+    margin-top: 1.8em;
+    width: 95% !important;
+    color:white;
+    font-weight:bold;
+    font-size:1.5em;
+  }
+
+  .startingcontentmobile{
+    font-size: 30;
+    color:rgb(61, 58, 58);
+    text-align:center;
+  }
+
+  .processheadingmobile{
+    font-size: 20;
+    color: rgb(49, 48, 48);
+    padding-top: 1em;
+  }
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 850px){ 
+  .admission-captcha{
+  transform:scale(0.8) !important;
+  -webkit-transform:scale(0.8);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  margin-left: 30%;
+  } 
+}
+
+@media (min-width: 850px){ 
+  .admission-captcha{
+  transform:scale(0.8) !important;
+  -webkit-transform:scale(0.8);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  margin-left: 38%;
+  } 
+}
+

@@ -1,0 +1,519 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script/nav-bar.js"></script>
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/admission.css">
+  
+        <!-- captcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   
+
+  </head>
+
+  <body>
+
+      <!-- <NAVBAR> -->
+        <div class="container-fluid people">
+        
+          <div class="row flex-nowrap navrow">
+        
+            <nav class="navbar navbar-expand-xl bg-lite navbar-light  col-9">
+      
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <img class="border-none" src="images/hamburger menu.svg">
+            </button>
+      
+            <a class="navbar-brand mx-auto" href="/">
+              <img  class="nav-hope-logo"src="images/Hope_3_Logo crop.png" alt="hope3-logo" data-toggle="modal" data-target=".bd-example-modal-sm">
+            </a>
+      
+      
+            <div id="modal" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-center font-weight-bold">Our Website Team From Hope3 Varsity</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>NACHIAPPAN.RM</li>
+                      <li>VIJAYA KUMAR.S</li>
+                      <li>LOGESWARI.V</li>
+                      <li>VIKRAM.P</li>
+                      <li>PUSHPA.U</li>
+                      <li>KALAIARASAN.T</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav text-capitalize " id="mrgnav">
+                <li class="nav-item">
+                  <a class="nav-link mspace" href="index.html">home</a>
+                </li>
+      
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown mspace breadcrumps" onclick="toggle_function()" href="#who_we_are" id="navbardrop" data-toggle="dropdown"><strong>who we are</strong></a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Founders.html">founders</a>
+                    <a class="dropdown-item" href="Mission.html">mission&vision</a>
+                    <a class="dropdown-item" href="financials.html">financials</a>
+                    <a class="dropdown-item breadcrumps" href="admissions.html"><strong>admissions</strong></a>
+                  </div>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link mspace" href="varsity.html">varsity</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mspace " href="Our People.html">our people</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mspace" href="Getinvolved.html">get involved</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- <nav-btn-joinus-donate> -->
+      
+          <div class="col-3 " id="nav-bar-button">
+            <div class="navbutton">
+      
+              <a href="https://www.paypal.com/paypalme/hope3org" target="_blank" class="btn btn-danger text-uppercase rounded-pill m-1 navbtn" role="botton">donate</a>
+              <a href="Getinvolved.html" class="btn btn-warning text-uppercase rounded-pill m-1 navbtn" role="botton">join us</a>
+      
+            </div>
+          </div>
+          </div>
+          </div>
+      
+      <!-- </NAVBAR> -->
+
+    <hr class="horizondal-line">
+       <!-- <ADMISSION PAGE> -->
+       <!-- <ADMISSION PAGE IN LAPTOP & DESKTOP--PAER1> -->
+    <div class="container-fluid-ap d-none d-lg-block ">
+      <div class="text-center">
+        <p class="head1"><span style="font-weight: bold;">So,</span> how can YOU enroll?</p>
+        <p class="head2">Our Process, It's pretty simple, really!</p>
+        <p class="head3">
+          If you are a top performer in school and every passionate about acheiving high-we are 
+          here to help you.Our<br>
+          admission process will make sure that it is a WIN-WIN for both students and the organization
+        </p>
+      </div>
+
+      <div class="row d-flexjustiy-content-center no-gutters">
+        <div class="col-lg-5 text-right process1">
+          <h2>Initial Application</h2>
+          <p>
+            application link shared soon after higher secondary exam<span class="br"></span>
+            results are published.You will need to provide your 10th<span class="br"></span>
+            and 12th marks for initial screening
+          </p>
+        </div>
+        <div class="col-lg-2 text-center ">
+          <img class="process1-img" src="images/process icon desktop 1.png" width="80%">
+          <div class=" vertical-line "></div>
+        </div>
+      </div>
+
+      <div class="row d-flexjustiy-content-center no-gutters">
+        <div class="col-lg-5"></div>
+        <div class="col-lg-2 text-center">
+          <img class="process-images" src="images/process icon desktop 2.png" width="80%" >
+          <div class="vertical-line "></div>
+        </div>
+        <div class="col-lg-5 text-left process-contents">
+          <h2>Eligibility Interview</h2>
+          <p>
+            Our hope3 volunteers will screen each<span class="br"></span>
+            selected students to assess their financial need<span class="br"></span>
+            and passion for learning
+          </p>
+        </div>
+      </div>
+
+      <div class="row d-flexjustiy-content-center no-gutters">
+        <div class="col-lg-5 text-right process-contents">
+          <h2>Document Verification</h2>
+          <p>
+            All your documents will be verified for<span class="br"></span>
+            authenticity our Admission team
+          </p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <img class="process-images" src="images/process icon desktop 3.png" width="80%">
+          <div class=" vertical-line "></div>
+        </div>
+      </div>
+
+      <div class="row d-flexjustiy-content-center no-gutters">
+        <div class="col-lg-5"></div>
+        <div class="col-lg-2 text-center">
+          <img class="process-images" src="images/process icon desktop 4.png" width="80%">
+          <div class=" vertical-line "></div>
+        </div>
+        <div class="col-lg-5 text-left process-contents">
+          <h2>Professional Interview</h2>
+          <p>
+            Our team educational professionals will interview<span class="br"></span>
+            the students or admission and also offer<span class="br"></span>
+            guidance on college selection<span class="br"></span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row d-flexjustiy-content-center no-gutters">
+        <div class="col-lg-5 text-right process-contents">
+          <h2>Varsity Onboarding</h2>
+          <p>
+            Varsity Team conduct several aptitude tests<span class="br"></span>
+            to assess your aptitude for varsity program<span class="br"></span>
+          </p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <img class="process-images" src="images/process icon desktop 5.png" width="80%">
+          <div class=" vertical-line vertical-line5 "></div>
+        </div>
+      </div>
+
+      <div class="row d-flexjustiy-content-center no-gutters ">
+        <div class="col-lg-12 ">
+          <div class="text-center">
+            <img class="finish-img" src="images/process icon desktop last.png" width="25%">
+          </div>  
+          <div class="finish1">
+            Congratulation
+          </div>
+          <div class="finish2">
+            Welcome to Hope3 family
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+      <!-- <ADMISSION PAGE IN MOBILE & TABLET> -->
+    <div class="col-sm-12 process text-center d-block d-lg-none">
+      <div class="text-center">
+        <p class="head1"><span style="font-weight: bold;">So,</span> how can YOU enroll?</p>
+        <p class="head2">Our Process, It's pretty simple, really!</p>
+        <p class="head3">
+          If you are a top performer in school and every passionate about acheiving high-we are 
+          here to help you.Our<br>
+          admission process will make sure that it is a WIN-WIN for both students and the organization
+        </p>
+      </div>
+
+      <img  src="images/process icon mobile 1.jpg" class="process-images">
+      <div class="process1-content ">
+        <h2>Initial Application</h2>
+        <p>
+          application link shared soon after higher secondary exam<br>
+          results are published.You will need to provide your 10th<br>
+          and 12th marks for initial screening
+        </p>
+      </div>
+        
+      <img  src="images/process icon mobile 2.jpg" class="process-images">
+      <div class="process2-content" >
+        <h2>Eligibility Interview</h2>
+        <p>
+          Our hope3 volunteers will screen each<br>
+          selected students to assess their financial need<br>
+          and passion for learning
+        </p>
+      </div>
+         
+      <img  src="images/process icon mobile 3.jpg" class="process-images">
+      <div class="process3-content">
+        <h2>Document Verification</h2>
+        <p>
+          All your documents will be verified for<br>
+          authenticity our Admission team
+        </p>
+      </div>
+    
+      <img  src="images/process icon mobile 4.jpg" class="process-images">
+      <div class="process4-content">
+        <h2>Professional Interview</h2>
+        <p>
+          Our team educational professionals will interview<br>
+          the students or admission and also offer<br>
+          guidance on college selection
+        </p>
+      </div> 
+       
+      <img  src="images/process icon mobile 5.jpg" class="process-images">
+      <div class="process5-content">
+        <h2>Varsity Onboarding</h2>
+        <p>
+          Varsity Team conduct several aptitude tests<br>
+          to assess your aptitude for varsity program
+        </p>
+      </div>
+
+      <div class="finish">
+        <p class="finish1-content">Congratulation</p>
+        <p class="finish2-content">Welcome to<br> Hope3 family</p>
+      </div>
+      <img src="images/process icon mobile last.jpg" >
+    </div>
+
+      <!-- SECOND PART -->
+    <div class="container-fluid  admissionbanner  admissionbannermobile ">
+      <div class="startingcontentmobile startingcontent">
+        <p><b>AND</b>, this is what you get...</p>
+      </div>
+
+      <div class="  row d-flex justify-content-center text-center">
+        <div class="col-md-3">
+          <img class = "admissionmobileprocessimg1" src="images/process 1 icon.png">
+          <h4 class="contentheadmobile contenthead">Scholarship</h4>
+          <p class="insidecontentmobile insidecontent">
+            We will conduct background checks and 
+            the correctness of the candidate's eligibility
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img class="admissionmobileprocessimg2" src="images/process 2 icon.png">
+          <h4 class="processheadingmobile processheading">Full support</h4>
+          <p class="insidecontentmobile insidecontent">
+            Get tuition from our professional team,
+            including support in laboratory, dubs and more 
+          </p>
+        </div> 
+        <div class="col-md-3">
+          <img  class="admissionmobileprocessimg3"src="images/process 3 icon.png">
+          <h4 class="contentheadmobile contenthead">Close escort</h4>
+          <p class="insidecontentmobile insidecontent">
+            Even after completing your degree, we 
+            accompany you until you choose your workplace
+          </p>
+        </div>
+      </div> 
+    
+      <div class=" ownbanner" > 
+        <div class="form-row  justify-content-around d-md-block  d-none">
+          <div class=" formtopic">
+            I Want to be a Student
+          </div> 
+
+          <div class="admissionform pl-3 pr-3 ">  
+            <form>
+              <div class="row justify-content-center">
+                <div class="  col-4 form-group ml-md-3 mr-md-3  ">
+                  <input type="text" class="   placeholdertext form-control" id="inputname" placeholder="Name:">
+                </div>
+
+                <div class=" col-4   form-group ml-md-3 mr-md-3 "> 
+                  <select id="inputState" class="form-control">
+                    <option selected>Area:</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <div class=" col-4  form-group ml-md-3 mr-md-3  ">
+                  <input type="email" class="  placeholdertext form-control" id="inputEmail4" placeholder="Email:">
+                </div> 
+                <div class=" col-4  form-group ml-md-3 mr-md-3"> 
+                  <select id="inputState" class="form-control">
+                    <option selected>What's Your College Major?</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="g-recaptcha admission-captcha" data-sitekey="6LfDFRMcAAAAAES2jCcVa7Py4lQlC_LY5VH6vUoM"></div>
+              <div class="button text-center  ">
+                <button  type="submit" class="btn-lg text-uppercase  rounded-pill mx-auto admissionformbtn" role="button">Submit</button>
+              </div>
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+    </div> 
+
+    <div class="container-fluid    d-md-none  mb-3">
+      <div id="accordion"> 
+        <button class="togglebutton1">
+          <div class="card-link text-left pl-3" data-toggle="collapse" href="#collapseOne">
+              I Want to be a Student
+              <i class="dropdown-arrow-mobile  fa fa-chevron-down">
+              </i>
+          </div>
+        </button>
+
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+          <div  class= "col-sm-12 admissionformmobile "> 
+            <form>
+              <div class="form-group inputborder">
+                <input type="text" class=" placeholdertext form-control" id="inputname" placeholder="Name:">
+              </div>
+
+              <div class="form-group inputborder">
+                 <input type="email" class="placeholdertext form-control" id="inputEmail4" placeholder="Email:">
+              </div>
+
+              <div class="form-group inputborder">
+                <select id="inputState" class="form-control">
+                  <option selected>Area:</option>
+                  <option>...</option>
+                </select>
+              </div>
+             
+              <div class="form-group inputborder ">
+                <select id="inputState" class="form-control">
+                  <option selected>What's Your College Major?</option>
+                  <option>...</option>
+                </select>
+              </div>
+
+              <!-- <captcha> -->
+              <div class="g-recaptcha admission-captcha " data-sitekey="6LfDFRMcAAAAAES2jCcVa7Py4lQlC_LY5VH6vUoM"></div>
+
+              <div class="button text-center  ">
+                <button  type="submit" class="btn mobile-button text-uppercase  rounded-pill mx-auto admissionformbtnmobile" 
+                  role="button">Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- </ADMISSION PAGE> -->
+     <!-- FOOTER -->
+     <div class="container-fluid footer-fluid">
+      <div class="row ">
+        <section class="pt-5 col-sm-3 footersec-1 container pr-2">
+          <a class="mt-4" href="/"><img src="images/Hope_3_Logo crop.png" alt="hope-logo"></a>
+          <address class="mt-4 footeraddr">
+            <span class="text-uppercase  font-weight-bold ">hope3 foundation</span>
+            <br>2135, 204th PL NE, Sammamish,<br>WA - 98074
+            <p class="mt-1">contact@hope3.org<br>425-200-4370</p>
+          </address>
+
+          <address class="mt-4 footeraddr">
+            <span class="text-uppercase  font-weight-bold ">Hope3 India Foundation</span>
+            <br>No.60, Sri balaji nagar,<br>Alwarthirunagar,<br>Valasaravakkam,<br>Chennai - 600087<br><br>+91 7358354839
+          </address>
+          <span class= "approval">US IRS 501(C)(3) approved organization<br>(Tax ID:83-4354181)</span>
+        </section>
+
+        <section class="mt-4 col-sm-4 footersec-2">
+          <div class="row">
+            <ul class=" col-sm-6 text-capitalize list-unstyled footer-main-link " id="footer-link">
+              <li class="my-3"><a href="index.html">home</a></li>
+              <li class="my-3"><a href="#">who we are</a></li>
+              <li class="my-3"><a href="varsity.html">varsity</a></li>
+              <li class="my-3"><a href="Our People.html">our people</a></li>
+              <li class="my-3"><a href="Getinvolved.html">get involved</a></li>
+            </ul>
+
+            <ul class="col-sm-6 text-capitalize list-unstyled " id="footer-link">
+              
+              <li class="my-3 mx-3"><a href="Founders.html">founders</a></li>
+              <li class="my-3 mx-3"><a href="Mission.html">mission/vision</a></li>
+              <li class="my-3 mx-3"><a href="financials.html">financials</a></li>
+              <li class="my-3 mx-3"><a href="admissions.html">admissions</a></li>
+            </ul>
+          </div>
+        </section>
+       
+        <section class="col-sm-5  footersec-3">
+          <!--social media links-->
+          <div class="footer-icons ">
+            <a href=" https://www.facebook.com/hope3org/"  target="_blank"><i class="fab fa-facebook-f text-dark mr-2"></i></a>
+            <a href="https://www.linkedin.com/company/hope3org/"  target="_blank"><i class="fab fa-linkedin-in text-dark mr-2"></i></a>
+            <a href="https://www.youtube.com/channel/UCbtzvET5Ev2spcIDWraFguA"  target="_blank"><i class="fab fa-youtube text-dark mr-2"></i></a>
+            <a href=" https://www.instagram.com/hope3org/"  target="_blank"><i class="fab fa-instagram text-dark mr-2"></i></a>
+            <a href="https://twitter.com/hope3org"  target="_blank"><i class="fab fa-twitter text-dark mr-2"></i></a>
+            <a href="https://www.pinterest.com/hope3org/"  target="_blank"><i class="fab fa-pinterest-p text-dark mr-2"></i></a>
+          </div>
+
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="form-group  col-md-6 needs-validation footerform-group " novalidate>
+                <input type="text" class="form-control footerform-control" id="fname" placeholder="First Name*" name="fname" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+
+              <div class="form-group col-md-6 footerform-group footer-pad-left">
+                <input type="text" class="form-control footerform-control" id="lname" placeholder="Last Name" name="lname">
+              </div>
+            </div> 
+
+            <div class="row">
+              <div class="form-group col-md-6 needs-validation footerform-group" novalidate>
+                <input type="email" class="form-control footerform-control" id="inputEmail4" placeholder="Email*" name="email" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+
+              <div class="form-group col-md-6 needs-validation footerform-group footer-pad-left" novalidate>
+                <input type="tel" class="form-control footerform-control" id="phone" placeholder="Phone*" name="phone" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-6 footerform-group">
+                <input type="tel" class="form-control footerform-control" id="whatsappNumber" placeholder="WhatsApp" name="whatsapp number">
+              </div>
+
+              <div class="form-group col-md-6 needs-validation footerform-group footer-pad-left" novalidate>
+                <input type="text" class="form-control footerform-control" id="inputAddress" placeholder="Address*" name="address" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+            </div>
+
+            <div class="form-group needs-validation footerform-group" novalidate>
+              <input type="text" class="form-control footerform-control" id="sub" placeholder="Subject*" name="sub" required>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group footerform-group">
+              <textarea class="form-control footermsg footerform-control" id="message" placeholder="Message" name="message" style="height:50px"></textarea>
+            </div>
+           
+            <div class="g-recaptcha " data-sitekey="6LfDFRMcAAAAAES2jCcVa7Py4lQlC_LY5VH6vUoM"></div>
+
+            <div class="footerbutton text-center pt-4">
+              <button  type="submit" class="btn btn-warning text-uppercase mt-3  mx-auto footerbtn" role="botton">contact us</button>
+            </div>
+          </form>
+        </section>
+      </div>
+
+    </div>
+     <script>
+      $(document).ready(function(){
+        $(".footer-fluid").dblclick(function(){
+          $("#modal").modal();
+        });
+      });
+      </script>
+  </body>
+</html>

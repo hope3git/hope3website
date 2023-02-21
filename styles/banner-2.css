@@ -1,0 +1,233 @@
+.blue-wrapper{
+    overflow: hidden;
+    
+    
+}
+.banner-2-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+
+}
+.desk-banner2{
+    width: 100%;
+}
+.mob-banner2{
+    width: 100%;
+}
+
+.ban-2-hr{
+    border:none;
+    width: 90%;
+    border-bottom: 1px solid rgb(132 138 138);
+    box-shadow: 1px 2px 2px 1px #ded6d6;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    display:none;
+}
+
+  .joinus-btn-desktop{
+    background-color: #ffc300 !important;   
+}
+
+.donate-btn-desktop{
+    background-color: #fb0000 !important;    
+}
+
+
+/* desktop */
+
+@media only screen and (min-width: 992px) and (max-width: 1560px){
+ 
+    .blue-fluid{
+    position: relative;
+    }
+    .donate-joinus-group-desktop{
+        
+        -moz-transform: translateY(-3.5em);
+        -webkit-transform: translateY(-3.5em);
+        -o-transform: translateY(-3.5em);
+        -ms-transform: translateY(-3.5em);
+        transform: translateY(-3.5em);
+        position: relative;
+    }
+    .bluebanner-btn-desktop{
+        color: #fff;
+        padding: .7rem 1.6rem;
+        font-weight: bolder;        
+        font-size: 1rem;
+        line-height: 0.5;
+        border-radius: 0.85em;
+        background-color: #00bce3;
+        position: initial;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .bluebanner-learnmore-desktop{
+        transform: translate(2.5em,-10em);
+        position: relative;
+    }
+
+}
+
+@media (min-width: 1560px){
+ 
+    .blue-fluid{
+    position: relative;
+    }
+    .donate-joinus-group-desktop{
+        
+        -moz-transform: translateY(-4.3em);
+        -webkit-transform: translateY(-4.3em);
+        -o-transform: translateY(-4.3em);
+        -ms-transform: translateY(-4.3em);
+        transform: translateY(-4.3em);
+        position: relative;
+    }
+    .bluebanner-btn-desktop{
+        color: #fff;
+        padding: 1rem 2.5rem;
+        font-weight: bolder;        
+        font-size: 1.4rem;
+        line-height: 0.5;
+        border-radius: 0.85em;
+        background-color: #00bce3;
+        position: initial;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .bluebanner-learnmore-desktop{
+        transform: translate(4em,-10em);
+        position: relative;
+    }
+
+}
+
+/* IPAD */
+
+@media(max-width: 991px){
+ 
+    .blue-fluid{
+    position: relative;
+    }
+
+    .donate-joinus-group-desktop{
+        
+        -moz-transform: translateY(-3.5em);
+        -webkit-transform: translateY(-3.5em);
+        -o-transform: translateY(-3.5em);
+        -ms-transform: translateY(-3.5em);
+        transform: translateY(-3.5em);
+        position: relative;
+    }
+
+    .bluebanner-btn-desktop{
+        color: #fff;
+        padding: .7rem 1.6rem;
+        font-weight: bolder;        
+        font-size: 1rem;
+        line-height: 0.5;
+        border-radius: 0.85em;
+        background-color: #00bce3;
+        position: initial;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .joinus-btn-desktop{
+        background-color: #ffc300;                
+    }
+
+    .donate-btn-desktop{
+        background-color: #fb0000;       
+    }
+
+    .bluebanner-learnmore-desktop{
+        transform: translate(1.5em,-6.5em);
+        position: relative;
+    }
+
+}
+
+/* mobile */
+@media(max-width:767px){
+        
+    .bluebanner-mobile-content{
+        background-color:#dbf6ff;
+        /* position: absolute; */
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+    
+    
+    }
+
+    .bluebanner-text{
+        padding-left: 3.5rem;
+       
+    }
+
+    .bluebanner-btn-mobile{
+        color: #fff;
+        padding: 1rem 1.5rem;
+        font-weight: bolder;        
+        font-size: 1.2rem;
+        line-height: 0.5;
+        border-radius: 1em;
+        position: initial;
+        font-family: 'Montserrat', sans-serif;
+        
+}
+    
+    .bluebanner-joinus-btn{
+        background-color: #ffc300;
+        padding: 0.8rem 2rem;
+        
+    }
+
+    .bluebanner-donate-btn{
+        background-color: #fb0000;
+        padding: 0.8rem 2rem;
+    }
+
+    .bluebanner-learnmore-btn{
+        background-color: #00bce3;
+    }
+
+    .bluebanner-text>h6{
+        font-weight: bold;
+        text-transform:capitalize;
+        font-size: 1.2rem;
+
+    }
+
+    .bluebanner-text>p{
+        color:#70777c;
+        margin-bottom: 1rem;
+
+    }
+
+    .learn-more-btn{
+        transform: translate(2.5em,-1em);
+        margin-bottom: 1.5rem;
+    }
+
+    .donate-joinus-group{
+
+        -moz-transform: translateY(1em);
+        -webkit-transform: translateY(1em);
+        -o-transform: translateY(1em);
+        -ms-transform: translateY(1em);
+        transform: translateY(1em);
+        position: relative;
+    }
+    
+    .ban-2-hr{
+        display: block;
+      }
+
+}
+@media (max-width: 431px){
+    .bluebanner-btn-mobile{
+        font-size: 1rem;
+        padding:.9rem  1.3rem;
+    }
+}

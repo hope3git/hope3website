@@ -1,0 +1,217 @@
+     /* nav-bar */
+
+*{
+    font-family: 'Montserrat', sans-serif; 
+}
+  
+.navbutton > .navbtn{
+    color: #fff;
+    padding: .7rem 1.5rem;
+    font-weight: bolder;        
+    font-size: .75rem;
+    line-height: 0.5;
+}
+  
+.nav-link:hover {
+    color: #0078bd !important;
+    font-weight: bolder;            
+}
+    
+.dropdown-menu a:hover {
+    border-left: 5px solid #267a9b;
+    color: #0078bd;
+}
+    
+.stay-blue{
+    color: #0078bd !important;
+    font-weight: bolder;
+}
+
+.navrow{
+        padding-left: 1em;
+}
+
+.breadcrumps{
+    color:#0078bd !important;
+}
+
+.modal-body > ul{
+    font-weight: 700;
+    background-image: linear-gradient(to right, #0e76bd, #4bb84f, #de4d4d,#0e76bd);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+@media(max-width:768px){
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+  
+    #nav-bar-button{
+    
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 0.5;
+        font-size: 3vw;
+        margin-top: 4vh;
+        margin-right: 4vw;
+        padding: 0.3vw 2vw;
+        
+    }
+    .navbutton{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .navbar{
+        margin-top: 1rem;
+    }
+    .bluebar{
+        background-color:#d7f3ee;
+        color: #6e6d72;
+        font-weight:bolder;           
+    }
+    .people{   
+      margin-bottom: 1rem;
+
+    }
+
+
+      
+}
+@media(max-width: 767px){
+    .navbutton > .navbtn{
+        padding: .7em 1.5em;
+        font-size: 0.8em;
+    }
+}
+
+ @media(min-width:768px){
+    body{
+        margin:0;
+       
+    }
+
+    .navrow{
+        margin: .5rem .2rem .2rem .5rem;
+    } 
+
+    .navbutton{
+        margin-left: 3rem;        
+    }
+
+    .mspace{
+       margin-left: 1.5rem;
+    }
+
+    #mrgnav{
+        margin-top: 2.3rem;
+        
+    }
+
+}
+
+@media(min-width: 1200px){
+    .navbutton{
+      margin-top: 2.9em !important;
+    }
+
+}
+
+
+
+/* button padding control desktop*/
+
+
+@media (min-width: 1245px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 1199px){
+    .navbar-hope-logo{
+        margin-left: 30%;
+    }
+} 
+
+
+@media only screen and (min-width: 769px) and (max-width: 818px){
+    .navbutton > .navbtn{
+        font-size: .56rem !important;
+        
+    }
+} 
+
+@media(min-width:1200px) and (max-width:1290px){
+    #nav-bar-button{
+        padding-left:0px !important ;
+        padding-right:0px !important ;
+        
+    }
+}
+
+
+/* mobile nav-btn adjusments */
+
+
+@media(max-width: 340px){
+    .nav-hope-logo{
+        transform:translate(-4em,-1.5em);
+        position: absolute;
+    }
+
+    #nav-bar-button{
+        margin-top: 2vh !important;
+    }
+
+}
+
+@media(max-width: 300px){
+    .nav-hope-logo{
+        width: 60%;
+        margin-top: .5em;
+        margin-left: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 340px) and(max-width:768px){
+    #nav-bar-button{
+        margin-top: 3vh !important;
+    }
+}
+
+/* hope-3-logo-center */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .nav-hope-logo{
+        margin-left: 30%;
+    }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }

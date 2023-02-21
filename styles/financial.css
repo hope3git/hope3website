@@ -1,0 +1,164 @@
+*{
+    /* font-size: calc(0.2em + 1vw); */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container-fluid{
+    position:relative;
+    width:100%; 
+   }
+
+.ban{
+    width: 100%;
+}
+.ban-container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+/*title of the web page*/
+.bluebar {
+    background-color:#d7f3ee;
+    color: #6e6d72;
+    font-weight: bolder;
+}
+
+/*Content other than banner*/
+.financial-content{
+    margin:1em 1em;
+    color:#6c6d70;
+    }
+
+.image-holder{
+        width: -webkit-fill-available;
+        width: -moz-available;
+        width: fill-available;
+        width: 100%;
+      }
+
+
+/*Financial Statements part*/
+.fin-stat-container{
+    background:#f5f5f5;
+    margin-bottom: 0.1em;
+}
+
+.col-module{
+    padding:16px 8px;
+}
+
+.fin-stat-container .module-headline{
+    font-size:1.5em;
+    color:#6c6d72;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0.5em 0.1em ;
+    margin: .6em;
+}
+
+.statements{
+    margin:0.4em;
+    
+}
+
+.statements .list-group-item-heading{
+    font-size: 0.9em;
+    color:#6c6d72;
+    font-weight:bolder;
+    padding-left: 1.5em;
+    margin: 0.6em;
+
+}
+
+.line-padded {
+    border-color:black;
+    width: 90%;
+    margin:0.5em auto;
+    color:black;
+    size: 2em;
+  }
+
+.statements-list{
+    padding-right:2px;
+    padding-left:14px;
+ }
+
+
+.statements ul .list-item{
+    font-size: 0.85rem;
+    list-style-type:none;
+    margin: 0.1em 0em;
+    padding-right:26px;
+    line-height: 2.5em;
+    text-decoration: none;
+}
+
+
+/*financial statements*/
+.finlink{
+    color:#6c6d70 ;
+    /* padding-left: 2px; */
+    text-decoration:none;
+    font-weight: 700;
+}
+
+a.finlink>a.span:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.tit{
+    font-weight: 900;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    padding-left: 2rem;
+    letter-spacing: .1rem;
+    padding-top: 0.5rem;
+}
+
+@media only screen and (min-width:767px)and(max-width:1025px){
+    .fin-stat-container .module-headline{
+        font-size:0.9em;  
+    }
+
+    .list-group-item-heading{
+        font-size: 0.6em;
+     }
+
+     .statements{
+        margin:3px;
+     }
+
+     .statements-list{
+        padding-right:3px;
+        padding-left:2px;
+     }
+
+     /* .statements ul .list-item{
+        font-size:0.5em;
+        padding-right:18px;
+        line-height: 2.4em;
+        color:black;
+     } */
+}
+
+@media (max-width: 334px){
+    .finlink{
+        font-size: .75rem !important;
+    }
+}
+
+@media (min-width: 768px ){
+    .col-module{
+        padding-left: 5% ;
+    }
+}
+
+
+
+
+
+
+

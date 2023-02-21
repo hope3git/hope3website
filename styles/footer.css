@@ -1,0 +1,160 @@
+.footer-fluid{
+  background-color: #efefef;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+   
+}
+
+#footer-link >a:hover, #footer-link  a:active,#footer-link  a:link, #footer-link a:visited{
+  color:black;
+  text-decoration:none;
+}
+
+#footer-link{
+  font-size: small;
+  color: #747476; 
+  font-weight: bolder;
+}
+
+.footeraddr{
+  font-size: .9rem;
+} 
+
+.footerform-group{
+  margin-bottom: .6rem;
+}
+
+.footermsg{
+  resize: none;
+}
+
+.footerform-control{
+     border-radius: 0 !important;
+ }
+
+.footerbutton > .footerbtn{
+  color: #fff;
+  padding: .8em 1.5em;
+  font-weight: bolder;        
+  font-size: 1.2rem;
+  border-radius: 1em;
+  line-height: 0.5;
+  
+  
+}
+
+
+.footerform-control::placeholder{
+opacity: 0.5;
+}
+
+ .approval{
+   font-size: small;
+   font-weight: bolder;
+ }
+
+
+@media (max-width: 991px){
+
+ .footersec-3{
+   padding: 10% 5% 30%;
+  }
+
+  .footersec-2{
+    display: none;
+  }
+
+  .footersec-1{
+    margin-left: 7%;
+  }
+
+  .footermsg{
+   height: 2.3rem !important;
+   }
+   
+ }
+
+  
+
+  @media (min-width:992px){
+    .footer-fluid{
+     padding-bottom: 1.8%;
+
+     }
+
+    .footersec-2{
+      padding-top: 7rem;
+    }
+
+    #footer-link{
+      padding-left:10%;
+      border-left: 1px solid rgb(228, 220, 220);
+    }
+
+  .footerbutton{
+      float: left;
+      padding-top:.2em !important;
+    }
+
+   .footersec-3{
+      margin-top: 7%;
+      padding-bottom: 1rem;
+      padding-left: 2.5rem;
+      padding-right: 4em;
+     } 
+
+   .footer-pad-left{
+      padding-left: 0.1rem !important;
+     }
+
+   .footersec-1{
+      transform: translate(4em,1.5em);
+    }
+   .footerbutton > .footerbtn{
+     padding: .8em 1.5em;
+     font-size: .9em;
+    }
+    .footer-main-link{
+      padding-left: 10% !important;
+    }
+    .footersec-2> .row{
+      margin-left: 5%;
+    }
+}
+@media(min-width: 768px){
+  .footer-icons{
+    text-align: right;
+    margin-bottom: 6%;
+  }
+}
+@media(max-width: 767px){
+  .footer-icons{
+    text-align: left;
+    margin-bottom: 6%;
+    padding-left: 5%;
+  }
+}
+
+/* captcha */
+
+@media only screen and (min-width: 576px) and (max-width: 850px){ 
+  .g-recaptcha {
+  transform:scale(0.5);
+  -webkit-transform:scale(0.5);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  } 
+}
+
+@media only screen and (min-width: 100px) and (max-width: 320px){ 
+  .g-recaptcha {
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  } 
+}
+
+

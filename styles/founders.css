@@ -1,0 +1,198 @@
+    *{
+        font-family: 'Montserrat', sans-serif;     
+    }
+  
+    .bluebar{
+        background-color: #d7f3ee;
+        color: #6e6d72;
+        font-weight: bolder;           
+    }
+
+    .founcontent > p{
+        font-size: -0.9em;  
+    }
+
+    .founcontent{
+        padding-top: 5rem;
+        padding-right: 5.5rem;
+    }
+
+    .founcontent > h4 > strong{
+        font-size: 3rem;
+    }
+
+    .mailcolor{
+        color: #3581fd !important;
+    }
+
+    /* removing padding from container-fluid */
+    .people{
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    /* 'Founders' */
+    .tit{
+        font-weight: 900;
+        font-size: 2.6rem;
+        word-spacing: 0.3rem;
+        padding-left: 2rem;
+        letter-spacing: .1rem;
+        padding-top: 0.5rem;
+    }
+
+    /* proper spacing */
+    .people-cls{
+        margin-top: 100px;
+        margin-right:0 !important;
+        margin-left:0 !important;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* mail icon */
+    .mail{
+        vertical-align: bottom;
+        width: 1.5rem;
+    }
+    
+    /* 2nd paragraph */
+    .fs{
+        font-size: 0.9em;
+        line-height: 1.5rem;
+        color: #6d6e72 ; 
+        opacity: 0.8;
+    }
+  
+    .founcontent>h4{
+        color: #6d6e72; 
+    }
+    
+    .foun2{
+        background-color: #efefef;
+    }
+
+    .foun2sub{
+        color: #6e6d72;
+    }
+
+    /* overflow control */
+    .wrapper{
+        overflow-x:hidden;
+    }
+
+    .vid>iframe{
+        width: 300px;
+        margin-bottom: 10px;
+        -moz-box-shadow: 0px 0px 20px 1px #6d6e72;
+        -webkit-box-shadow: 0px 0px 20px 1px #6d6e72;
+        box-shadow: 0px 0px 20px 1px #6d6e72;
+        border: solid 2px #035bde;
+    }
+  
+/* ***** MOBILE AND IPAD CLASS'S ****** */
+
+@media(max-width: 991px){
+
+    .founcontent{
+        font-size: 1em;
+        margin: 0; 
+        padding-top: 1rem;
+        padding-right: 0;
+        margin: 0;
+    
+    }
+    .people-cls{
+        margin: 1rem;    
+    }
+
+    .neel{
+        display: block;
+    }
+
+    .founcontent>h4{
+        margin-top: 2.5rem;
+        /* margin-left: 1rem; */
+        font-size: 2rem;
+    }
+
+    .founder-img{
+        display: none;
+    }
+
+    .vid > iframe{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .bluebar{
+        margin-top:0;
+    }
+
+    .founcontent > h4 > strong{
+        /* font-size: 4rem; */
+        font-weight: 800;
+    }
+
+
+    .fs{            
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        width: 90%;
+        color:#858688;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 576px){
+        .founcontent > h4 > strong{
+        font-size: 2.8rem;
+    }
+}
+
+
+/* ***** DESKTOP ***** */
+
+@media(min-width:992px){
+    .fn-2-desktop{
+        font-weight: bolder;
+        font-size: 2.8rem;
+    }
+
+      /* Text-control */
+
+    .br::before{
+        content:"";
+        display: block;
+    }
+
+    /* img 2 position */
+
+    .founderimg-2{
+        -moz-transform: translate(3.2em, -12em);
+        -webkit-transform: translate(3.2em, -12em);
+        -o-transform: translate(3.2em, -12em);
+        -ms-transform: translate(3.2em, -12em);
+        transform: translate(3.2em, -12em);
+    }
+
+    .foun2{
+        margin-top: 200px;
+    }
+
+    .foun2content{
+        padding-top: 2rem;
+
+    }
+
+    .founder-img-trans{
+        transform: translateX(4vw);
+    }
+
+  
+}
+
