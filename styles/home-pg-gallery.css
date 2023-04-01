@@ -13,6 +13,20 @@
   color:rgb(80, 75, 75);
 }
 
+.gallery-subContent {
+  content: '\25CF';
+  font-size: 1em;
+  padding-bottom: .5em;
+  color:rgb(80, 75, 75);
+}
+
+.gallery-insideContent {
+  content: '\25CF';
+  font-size: 0.9em;
+  padding-bottom: .5em;
+  color:rgb(80, 75, 75);
+}
+
 .galleryhead{
   text-align:left; 
   font-size: medium;
@@ -119,5 +133,46 @@ cursor:pointer;
       font-size:1.2em !important;
     }
 
+}
+
+
+/* hope event  */
+
+.card{
+  width: 50%;
+  height:100%;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.bg-banner {
+  background-image: url("images/Homepage_Banner_New.jpg");
+  background-size: 100% 100%;
+  padding-bottom: 5%;
+}
+
+@media(max-width: 767px) {
+  .bg-banner-mobile {
+      background-image: url("images/Homepage_Banner_3\ mobile\ \(1\).jpg");
+      background-size: 100% 100%;
+      padding-bottom: 10%;
+  }
+}
+
+.home-wrapper {
+  overflow-x: hidden;
+}
+
+.read {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.img-size {
+  height: 150px;
 }
 
